@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { trabajos } from "../data/Trabajos";
 
 export const Portafolio = () => {
+
   return (
-    <div>Portafolio</div>
+    <div className='page'>
+      <h1 className='heading'>Portafolio</h1>
+    </div>
   )
 }

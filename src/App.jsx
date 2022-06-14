@@ -1,12 +1,10 @@
-import { useState } from 'react'
-import logo from './logo.svg'
 import './App.css'
-import { Curriculum } from './components/Curriculum'
+import { MisRutas } from './router/MisRutas'
 
 function App() {
   return (
-    <div>
-      <Curriculum />
+    <div className="layout">
+      <MisRutas />
     </div>
   )
 }
